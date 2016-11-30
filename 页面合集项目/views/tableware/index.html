@@ -1,0 +1,489 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>康宁餐具</title>
+<style type="text/css">
+*{
+	margin:0;
+	padding:0;}
+ul{
+	list-style:none;
+	}
+a{
+	text-decoration:none;
+	}
+body{
+	font-family:"微软雅黑 Light";
+	}
+.inner{
+	width:1094px;
+	margin:0 auto;
+	}
+#header{
+	height:124px;
+	position:fixed;
+	left:0;
+	top:0;
+	width:100%;
+	z-index:100;
+	}
+.header_t{
+	height:90px;
+	background-color:rgba(0,0,0,0.5);
+	}
+.logo{
+	float:left;
+	padding-top:2px;
+	padding-left:7px;
+	}
+.sub_nav{
+	float:right;
+	width:600px;
+	}
+.sub_nav li{
+	float:left;
+	line-height:40px;
+	font-size:12px;
+	color:#b0b1ac;
+	padding-left:22px;
+	}
+.sub_nav li a:hover{
+	color:yellow;
+	}
+.sub_nav li a{
+	line-height:40px;
+	font-size:12px;
+	color:#b0b1ac;
+	}
+.search{
+	width:174px;
+	height:18px;
+	float:right;
+	}
+.txt{
+	width:126px;
+	height:18px;
+	border:none;
+	vertical-align:top;
+	background-image:url(images/search.png);
+	background-position:left top;
+	background-color:transparent;
+	padding-left:18px;
+	outline:none;
+	}
+.btn{
+	width:30px;
+	height:18px;
+	border:none;
+	background-image:url(images/search.png);
+	background-position:right top;
+	background-color:transparent;
+	cursor:pointer;
+	outline:none;
+	}
+.header_b{
+	height:34px;
+	background-color:rgba(255,0,0,0.5);
+	}
+.nav{
+	padding-left:7px;
+	}
+.nav li{
+	float:left;
+	width:130px;
+	line-height:34px;
+	}
+.nav li a{
+	font-size:14px;
+	color:#f5fff4;
+	}
+#banner{
+	height:440px;
+	background-image:url(images/panzi.jpg);
+	background-repeat:no-repeat;
+	background-position:center top;
+	}
+#icon{
+	height:90px;
+	background-image:url(images/banner_bottom.jpg)
+	}
+.pic_nav{
+	padding-top:20px;
+	}
+.pic_nav li{
+	float:left;
+	}
+.pic_nav img{
+	height:50px;
+	}
+.pic_nav img:hover{
+	height:60px;
+	}	
+#main{
+	height:869px;
+	background-image:url(images/main_bg.jpg);
+	background-repeat:no-repeat;
+	background-position:center top;
+	}
+.main_t{
+	height:412px;
+	}
+.pro{
+	float:left;
+	margin:0 8px
+	}
+.pic{
+	width:202px;
+	height:202px;
+	background-image:url(images/proBg.png);
+	text-align:center;
+	position:relative;
+	}
+.pic img{
+	padding-top:7px;}
+.gunajun{
+	position:absolute;
+	right:-11px;
+	bottom:-11px;
+	}
+.pro p{
+	text-align:center;
+	font-family:"宋体";
+	font-size:12px;
+	color:#626262;
+	line-height:18px;
+	}
+.main_t h2{
+	line-height:67px;
+	padding-top:38px;
+	font-size:24px;
+	font-weight:normal;
+	color:#606060;
+	}
+.main_b{
+	height:418px;
+	padding-top:39px;
+	}
+.kn{
+	width:245px;
+	height:361px;
+	background-color:#fff;
+	float:left;
+	margin-right:18px;
+	box-shadow:0 0 10px 3px rgba(0,0,0,0.3);
+	padding-left:15px;
+	}
+#jlb{
+	margin-right:0;
+	}
+.kn h4{
+	font-family:"微软雅黑 Light";
+	font-size:17px;
+	line-height:42px;
+	color:#5b6073;
+	margin-top:3px;
+	font-weight:normal;
+	}
+.kn h5{
+	font-family:"宋体";
+	font-size:14px;
+	color:#646464;
+	font-weight:bold;
+	margin-top:15px;
+	margin-bottom:5px;
+	}
+.xsj li{
+	font-family:"宋体";
+	line-height:24px;
+	font-size:12px;
+	color:#646464;
+	padding-left:15px;
+	background-image:url(images/li_bg.jpg);
+	background-repeat:no-repeat;
+	background-position:left center;
+	}
+.xcy p{
+	font-family:"宋体";
+	font-size:12px;
+	line-height:24px;
+	color:#5c5c5c;
+	margin-top:19px;
+	}
+.kn .ljgd{
+	font-family:"微软雅黑 Light";
+	font-size:14px;
+	line-height:27px;
+	margin-top:20px;
+	background-image:url(images/more.png);
+	background-repeat:no-repeat;
+	height:36px;
+	}
+#last{
+	margin-top:4px;
+	}
+.ljgd a{
+	color:#fff;
+	display:block;
+	height:27px;
+	width:90px;
+	padding-left:10px;
+	}
+#footer{
+	height:342px;
+	}
+.footer_t{
+	height:270px;
+	background-color:#626262;
+	}
+.footer_t h5{
+	font-family:"宋体";
+	line-height:20px;
+	font-size:13px;
+	font-weight:bold;
+	color:#dcdcdc;
+	}
+.footer_t li{
+	font-family:"宋体";
+	line-height:24px;
+	font-size:12px;
+	color:#b0b0b0;
+	}
+.bnkn,.ppzq,.cpzx,.mxcp,.xwdd,.knxzy,.knjlb{
+	float:left;
+	padding-top:30px;
+	}
+.bnkn{
+	width:172px;
+	}
+.ppzq,.cpzx,.mxcp,.xwdd,.knxzy{
+	width:165px;
+	}
+.knjlb{
+	width:97px;
+	}
+.footer_b{
+	height:72px;
+	background-color:#292929;
+	}
+</style>
+</head>
+
+<body>
+<div id="header">
+ 	<div class="header_t">
+    	 	<div class="inner">
+                <div class="logo">
+        		<img src="images/logo.png"/>
+        	</div>
+                <div class="sub_nav">
+            <ul>
+            	<li>欢迎光临美国康宁餐具官网</li>
+            	<li><a href="#">返回首页</a></li>
+            	<li>[<a href="#">注册</a> / <a href="#">登录</a>] </li>
+            	<li><a href="#">康宁餐具全球官网</a></li>
+            	<li>  <a href="#">联系我们</a> | <a href="#">人才招聘</a></li>
+                                          
+            </ul>
+            <form class="search">
+            <input type="text" placeholder="请输入搜索关键字" class="txt"/><input type="submit" value="" class="btn"/>
+            </form>
+        </div>
+            </div>
+    </div>
+	<div class="header_b">
+     <div class="inner">
+     	<ul class="nav">
+        	<li><a href="#">百年康宁</a></li>
+        	<li><a href="#">品牌专区</a></li>
+        	<li><a href="#">产品中心</a></li>
+        	<li><a href="#">明星产品</a></li>
+        	<li><a href="#">新闻动态</a></li>
+        	<li><a href="#">康宁心煮艺</a></li>
+        	<li><a href="#">康宁俱乐部</a></li>
+        </ul>
+     </div>
+    </div>
+</div>
+<div id="banner">
+	<div></div>
+</div>
+<div id="icon">
+<div class="inner">
+ <ul class="pic_nav">
+  <li><a href="#"><img src="images/link01.png"/></a></li>
+  <li><a href="#"><img src="images/link02.png"/></a></li>
+  <li><a href="#"><img src="images/link03.png"/></a></li>
+  <li><a href="#"><img src="images/link04.png"/></a></li>
+  <li><a href="#"><img src="images/link05.png"/></a></li>
+  <li><a href="#"><img src="images/link06.png"/></a></li>
+  <li><a href="#"><img src="images/link07.png"/></a></li>
+  <li><a href="#"><img src="images/link08.png"/></a></li>
+  <li><a href="#"><img src="images/link09.png"/></a></li>
+ </ul>
+</div>
+</div>
+<div id="main">
+	<div class="inner">
+      <div class="main_t">
+     	<h2>明星产品</h2>
+         <div class="pro_list">
+          <div class="pro">
+          <div class="pic"> 
+          <img src="images/list-01.jpg"/>
+          <div class="gunajun"><img src="images/campion.png"/></div>
+          </div>
+            <p>Visions晶彩透明锅</p>
+          </div>
+          <div class="pro">
+          <div class="pic"><img src="images/list-02.jpg"/>
+           <div class="gunajun"><img src="images/campion.png"/></div>
+          </div>
+            <p>Swiss Diamond瑞仕钻锅</p>
+          </div>
+          <div class="pro">
+          <div class="pic"><img src="images/list-03.jpg"/>
+          <div class="gunajun"><img src="images/campion.png"/></div>
+          </div>
+            <p>VGreen Pan格林攀</p>
+          </div>
+          <div class="pro">
+          <div class="pic"><img src="images/list-04.jpg"/>
+          <div class="gunajun"><img src="images/campion.png"/></div>
+          </div>
+            <p>Snapware康宁扣</p>
+          </div>
+          <div class="pro">
+          <div class="pic"><img src="images/list-05.jpg"/>
+          <div class="gunajun"><img src="images/campion.png"/></div>
+          </div>
+            <p>Corelle康宁餐具</p>
+          </div>
+         </div>
+     </div>
+     <div class="main_b">
+      <div class="kn">
+      	<h4>康宁心煮艺</h4>
+         <img src="images/info-01.jpg"/>
+         <div class="xcy">
+               <p>播出媒体：旅游卫视<br/>
+首播时间：18:13-18:28（周一至周五）<br/>
+重播时间：03:48—04:03、12:50—13:05</p>
+         </div>
+		<div class="ljgd">
+        	<a href="#">了解更多</a>
+        </div>
+      </div>
+      <div class="kn">
+      	<h4>新闻动态</h4>
+         <img src="images/info-02.jpg"/>
+         <div class="news">
+        <span>2014.12.25</span>
+        <p>瑞仕钻锅被美国权威杂志评为最佳锅具</p>
+        <span>2014.12.18</span>
+        <p>Swiss Diamond原汁机 “大”有不同</p>
+         </div>
+		<div class="ljgd">
+        	<a href="#">了解更多</a>
+        </div>
+      </div>
+      <div class="kn">
+      	<h4>活动信息</h4>
+         <img src="images/info-03.jpg"/>
+        <p>播出媒体：旅游卫视<br/>
+首播时间：18:13-18:28（周一至周五）<br/>
+重播时间：03:48—04:03、12:50—13:05</p>
+		<div class="ljgd">
+        	<a href="#">了解更多</a>
+        </div>
+      </div>
+      <div class="kn" id="jlb">
+      	<h4>康宁俱乐部</h4>
+        <img src="images/info-04.jpg"/>
+        <h5>加入康宁俱乐部专享三重惊喜</h5>
+        	<ul class="xsj">
+            	<li>独家食谱</li>
+            	<li>尊享活动</li>
+            	<li>最新资讯</li>
+            </ul>
+		<div class="ljgd" id="last">
+        	<a href="#">点击注册</a>
+        </div>
+      </div>
+     </div>
+    </div>
+</div>
+<div id="footer">
+	<div class="footer_t">
+    <div class="inner">
+      <div class="bnkn">
+      <h5>百年康宁</h5>
+      	<ul>
+        	<li>品牌故事</li>
+        	<li>发展历程</li>
+        	<li>品牌理念</li>
+        </ul>
+      </div>
+      <div class="ppzq">
+      <h5>品牌专区</h5>
+      	<ul>
+        	<li>Corelle 康宁餐具</li>
+        	<li>CorningWare 康宁锅</li>
+        	<li>Visions 晶彩透明锅</li>
+        	<li>Swiss Diamond 瑞仕钻锅</li>
+        	<li>Snapware 康宁扣</li>
+        	<li>Pyrex 百丽</li>
+            <li>OXO</li>
+            <li>World Kitchen</li>
+        </ul>
+      </div>
+      <div class="cpzx">
+      <h5>产品中心</h5>
+      	<ul>
+        	<li>其他</li>
+        	<li>保鲜容器</li>
+        	<li>炊具</li>
+        	<li> 餐具</li>
+        </ul>
+      </div>
+      <div class="mxcp">
+      <h5>明星产品</h5>
+      	<ul>
+        	<li>新品速递</li>
+        	<li>热销产品</li>
+        	<li>热销套组</li>
+        </ul>
+      </div>
+      <div class="xwdd">
+      <h5>新闻动态</h5>
+      	<ul>
+        	<li>媒体报道</li>
+        	<li>活动信息</li>
+        </ul>
+      </div>
+      <div class="knxzy">
+      <h5>康宁心煮艺</h5>
+      	<ul>
+        	<li>节目介绍</li>
+        	<li>明星嘉宾</li>
+        	<li>活动预告</li>
+        	<li>节目回顾</li>
+        	<li>其他节目</li>
+        </ul>
+      </div>
+      <div class="knjlb">
+      <h5>康宁俱乐部</h5>
+      	<ul>
+        	<li>注册会员</li>
+        	<li>会员报名活动</li>
+        	<li>烹饪课堂</li>
+        	<li>优惠活动</li>
+        	<li>健康菜谱</li>
+        </ul>
+      </div>
+    </div>
+    </div>
+	<div class="footer_b"></div>
+</div>
+</body>
+</html>

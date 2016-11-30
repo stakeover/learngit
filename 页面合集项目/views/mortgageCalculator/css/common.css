@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul, li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #e6e6e6;
+    font-family: "微软雅黑", "黑体", "宋体";
+}
+
+input {
+    line-height: 20px;
+}
+
+.clear {
+    clear: both;
+}
+
+#wrap {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#counter {
+    width: 680px;
+    height: 610px;
+    border: 2px #c6eaa3 solid;
+    margin-right: 10px;
+    padding: 15px;
+    float: left;
+}
+
+#rate {
+    margin-top: 76px;
+    width: 270px;
+    padding: 10px;
+    background-color: #fff;
+    float: left;
+    font-size: 12px;
+    border:1px red solid;
+    color: #362c23;
+}
+
+#rate table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#rate th, #rate tr, #rate td {
+    border: 1px #f2e7ef solid;
+    line-height: 26px;
+    text-align: left;
+}
+
+#rate strong {
+    padding-left: 10px;
+    line-height: 26px;
+}
+
+#rate .rate_title {
+    line-height: 32px;
+    font-size: 18px;
+    text-align: center;
+    color: red;
+    font-weight: bold;
+    border-bottom: 1px #f2e7ef solid;
+}
+
+#title {
+    width: 330px;
+    height: 40px;
+    border-radius: 10px;
+    border: 5px #5a9328 solid;
+    margin: 0 auto;
+    color: #007720;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 40px;
+    margin-bottom: 13px;
+}
+
+.nav li {
+    float: left;
+    list-style: none;
+    margin-right: 4px;
+    font-size: 12px;
+}
+
+.nav li a {
+    -webkit-border-top-left-radius: 6px;
+    -webkit-border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border: 1px #61784c solid;
+    background-color: #74a83a;
+    padding: 0 13px;
+    display: block;
+    line-height: 26px;
+    height: 26px;
+    color: #fff;
+}
+
+#counter .nav .lastli {
+    float: right;
+    margin-right: 0;
+}
+
+#counter .nav .current {
+    background-color: #fcfefb;
+    color: black;
+    border-bottom: 1px #fff solid;
+}
+
+#loanform input, #loanform select {
+    color: red;
+}
+
+.content1 {
+    width: 680px;
+    height: 510px;
+    background-color: #fcfefb;
+    border: 1px #61784c solid;
+    border-top: none;
+    display: none;
+}
+
+#content .content2, #content .content3, #content .content4, #content .content5, #content .content6 {
+    display: none;
+    width: 680px;
+    height: 510px;
+    background-color: #fcfefb;
+}
+
+#counter .active {
+    display: block;
+}
+
+#write {
+    line-height: 30px;
+    width: 299px;
+    padding: 20px;
+    float: left;
+    border-right: 1px #cbdab3 solid;
+    font-size: 12px;
+}
+
+#lookresult {
+    line-height: 30px;
+    width: 280px;
+    padding: 20px;
+    font-size: 12px;
+    float: right;
+}
+
+.radio_div {
+    line-height: 20px;
+}
+
+.check_div .check_child {
+    padding-left: 15px;
+    display: none;
+}
+
+.check_div .check_child p {
+    font-size: 6px;
+    line-height: 10px;
+    color: red;
+    font-weight: bold;
+    display: none;
+}
+
+.check_div .current {
+    display: block;
+}
+
+.loan_div .lilvzhi {
+    width: 76px;
+    margin-left: 54px;
+}
+
+#write h3, #lookresult h3 {
+    color: red;
+    line-height: 20px;
+    padding-bottom: 10px;
+}
+
+.line {
+    height: 3px;
+    width: 100%;
+    margin: 6px 0;
+    border-top: 1px #658578 dotted;
+    border-bottom: 1px #658578 dotted;
+}
+
+.result {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.count {
+    display: block;
+    float: left;
+    border-radius: 6px;
+    width: 80px;
+    height: 24px;
+    border: 1px #df9500 solid;
+    background: -webkit-linear-gradient(top, #fbcc34 50%, #dc7400 50%);
+    background: -moz-linear-gradient(top, #fbcc34 50%, #dc7400 50%);
+    background: -ms-linear-gradient(top, #fbcc34 50%, #dc7400 50%);
+    background: -o-linear-gradient(top, #fbcc34 50%, #dc7400 50%);
+    text-align: center;
+    line-height: 24px;
+    color: #fff;
+}
+
+.rewrite {
+    display: block;
+    float: right;
+    border-radius: 6px;
+    width: 80px;
+    height: 24px;
+    border: 1px #1d8675 solid;
+    background: -webkit-linear-gradient(top, #5fc5b4, #2a8695);
+    background: -moz-linear-gradient(top, #5fc5b4, #2a8695);
+    background: -ms-linear-gradient(top, #5fc5b4, #2a8695);
+    background: -o-linear-gradient(top, #5fc5b4, #2a8695);
+    text-align: center;
+    line-height: 24px;
+    color: #fff;
+}

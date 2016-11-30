@@ -1,0 +1,103 @@
+@charset "utf-8";
+/* CSS Document */
+
+#main{
+	height:1067px;
+	}
+.main_t h2{
+	line-height:144px;
+	font-size:26px;
+	padding-top:27px;
+	color:#333333;
+	text-align:center;
+	}
+.main_txt{
+	height:316px;
+	}
+.tg{
+	width:360px;
+	height:128px;
+	float:left;
+	margin-right:20px;
+	margin-bottom:19px;
+	background-image:url(../images/ser-bg.png);
+	background-repeat:no-repeat;
+	}
+.tg h4,.tg p{
+	margin-left:90px;
+	}
+.tg h4{
+	line-height:40px;
+	font-size:16px;
+	padding-top:11px;
+	color:#515153;
+	}
+.tg p{
+	line-height:19px;
+	font-size:14px;
+	color:#9a9a98;
+	}
+.tg img{
+	float:left;
+	}
+.tg img:hover{
+	width:69px;
+	}
+.main_t h3{
+	line-height:88px;
+	font-size:26px;
+	color:#515153;
+	text-align:center;
+	}
+.features{
+	height:235px;
+	text-align:center;
+	}
+.desgin{
+	float:left;
+	width:340px;
+	height:235px;
+	margin:0 20px;
+	}
+.desgin h3{
+	line-height:39px;
+	font-size:19px;
+	color:#343434;
+	}
+.desgin p{
+	line-height:23px;
+	font-size:12px;
+	color:#7a7a7a;
+	}
+.desgin a{
+	display:block;
+	width:100px;
+	height:100px;
+	margin:0 auto;
+	background-image:url(../images/img-sprite.png);
+	}
+.desgin img{
+	width:340px;
+	}
+#rg a{
+	background-position:-100px center;
+	}
+#lt a{
+	background-position:-200px center;
+	}
+#ce a{
+	background-position:-300px center;
+	}
+#rt a{
+	background-position:-400px center;
+	}
+
+
+
+
+
+
+
+
+
+

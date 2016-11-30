@@ -1,0 +1,287 @@
+@charset "utf-8";
+/* CSS Document */
+#banner{
+	height:520px;
+	background-image:url(../images/bg.jpg);
+	margin-top:3px;
+	}
+.main_txt{
+	height:346px;
+	padding-top:70px;
+	}
+.tg{
+	width:360px;
+	height:128px;
+	float:left;
+	margin-right:20px;
+	margin-bottom:19px;
+	background-image:url(../images/ser-bg.png);
+	background-repeat:no-repeat;
+	}
+.tg h4,.tg p{
+	margin-left:90px;
+	}
+.tg h4{
+	line-height:40px;
+	font-size:16px;
+	padding-top:11px;
+	color:#515153;
+	}
+.tg p{
+	line-height:19px;
+	font-size:14px;
+	color:#9a9a98;
+	}
+.tg img{
+	float:left;
+	}
+.tg img:hover{
+	width:69px;
+	}
+.main_buy{
+	height:244px;
+	width:1140px;
+	border-bottom:3px #dddddd double;
+	border-top:3px #dddddd double;
+	position:relative;
+	}
+.buy_txt{
+	height:130px;
+	padding-left:29px;
+	border-top:1px #dddddd solid;
+	border-bottom:1px #dddddd solid;
+	border-right:1px #dddddd solid;
+	border-left:5px #ed5844 solid;
+	margin:56px 0;
+	background-color:#eeeeee;
+	}
+.main_buy .hi{
+	float:left;
+	padding-top:44px;
+	font-size:16px;
+	padding-bottom:21px;
+	color:#5a5a5a;
+	}
+.main_buy .lorem{
+	float:left;
+	font-size:12px;
+	color:#a8a8a8;
+	}
+.buy-now{
+	position:absolute;
+	right:44px;
+	top:96px;
+	}
+.youjian{
+	position:absolute;
+	right:0;
+	top:57px;
+	}
+.the{
+	float:left;
+	font-size:18px;
+	height:14px;
+	width:150px;
+	background-color:#fff;
+	color:#3d3437;
+	position:absolute;
+	left:0;
+	bottom:-6px;
+	}
+.main_pic{
+	height:575px;
+	}
+.web{
+	float:left;
+	width:248px;
+	height:456px;
+	padding:14px 14px 0;
+	background-color:#eeeeee;
+	margin-top:49px;
+	margin-right:12px;
+	}
+#web_last{
+	margin-right:0;
+	}
+.web .web_pic{
+	width:247px;
+	height:310px;
+	position:relative;
+	}
+.web img{
+	width:247px;
+	}	
+.web h4{
+	font-size:17px;
+	line-height:46px;
+	color:#333c45;
+	border-bottom:1px #e7e7e7 solid;
+	}
+.web p{
+	font-size:14px;
+	line-height:23px;
+	color:#a1a1a1;
+	padding-top:10px;
+	}
+.main_pic .web-design img{
+	float:left;
+	width:113px;
+	height:27px;
+	position:absolute;
+	left:0;
+	bottom:0;
+	}
+.web a{
+	display:block;
+	float:right;
+	width:27px;
+	height:27px;
+	background-image:url(../images/s-icons.png);
+	background-position:-276px -84px;
+	position:absolute;
+	bottom:0;
+	right:0;
+	}
+.web .xjt_1{
+	background-position:-243px -84px;
+	position:absolute;
+	bottom:0;
+	right:30px;
+	}
+.tour{
+	float:left;
+	font-size:18px;
+	height:14px;
+	width:140px;
+	background-color:#fff;
+	color:#3d3437;
+	position:absolute;
+	left:0;
+	bottom:-6px;
+	}
+.tour_last{
+	float:left;
+	font-size:18px;
+	height:14px;
+	width:140px;
+	background-color:#fff;
+	color:#3d3437;
+	position:absolute;
+	right:244px;
+	bottom:-6px;
+	}
+.main_b{
+	height:566px;
+	padding-top:42px;
+	
+	}
+.main_b_l{
+	width:720px;
+	float:left;
+	}
+.read{
+	float:left;
+	width:340px;
+	height:255px;
+	margin-right:40px;
+	}
+.read_img{
+	width:340px;
+	height:255px;
+	position:relative;
+	}
+.read .read_img a{
+	display:block;
+	width:41px;
+	height:40px;
+	margin-left:3px;
+	background-image:url(../images/s-icons.png);
+	background-position:-287px -122px;
+	position:absolute;
+	right:0;
+	bottom:0;
+	}
+.read .read_img .jan{
+	position:absolute;
+	right:45px;
+	bottom:0;
+	background-position:-238px -168px;
+	}
+#read_last{
+	margin-right:0;
+	}
+.read .read_img .xj{
+	position:absolute;
+	right:45px;
+	bottom:0;
+	background-position:-238px -122px;
+	}
+.read h4{
+	width:326px;
+	border:none;
+	font-size:16px;
+	line-height:49px;
+	color:#212936;
+	border-bottom:1px #cccccc solid;
+	}
+.read_p{
+	width:326px;
+	font-size:14px;
+	line-height:23px;
+	padding-top:12px;
+	padding-bottom:9px;
+	border-bottom:1px #cccccc solid;
+	color:#9c9c9c;
+	}
+.read_more{
+	padding-top:18px;
+	width:96px;
+	padding-left:14px;
+	background-image:url(../images/xsj_11.jpg);
+	background-repeat:no-repeat;
+	background-position:right 20px;
+	border:none;
+	color:#575757;
+	}
+.main_b_r{
+	float:right;
+	width:366px;
+	padding-left:54px;
+	}
+.main_b_r_t{
+	float:lef
+	}
+.main_b_r_t img{
+	width:87px;
+	}
+.h2p{
+	float:right;
+	width:262px;
+	padding-left:16px;
+	}
+.h2p h2{
+	font-size:16px;
+	line-height:23px;
+	color:#3e3e3e;
+	padding-bottom:7px;
+	}
+.h2p p{
+	font-size:15px;
+	line-height:23px;
+	color:#838383;
+	}
+.h2p p span{
+	color:#e95951;
+	}
+.xieti{
+	font-size:15px;
+	line-height:23px;
+	padding-top:7px;
+	text-indent:30px;
+	font-style:italic;
+	color:#a5a5a5;
+	padding-bottom:15px;
+	background-image:url(../images/quotes.png);
+	background-repeat:no-repeat;
+	background-position:left 8px;
+	}
